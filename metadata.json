@@ -1,0 +1,7 @@
+{
+  "name": "Islamic Hub",
+  "description": "A mindful digital space for the modern Muslim, featuring prayer times, daily wisdom, Qibla direction, and a digital Dhikr counter.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}

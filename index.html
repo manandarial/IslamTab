@@ -1,0 +1,64 @@
+
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Islamic Hub - Modern Digital Space</title>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#39564f",
+                        "accent": "#C9B273",
+                        "background-light": "#f1f2f4",
+                        "background-dark": "#17191c",
+                        "surface-dark": "#202222",
+                    },
+                    fontFamily: {
+                        "display": ["Manrope", "sans-serif"]
+                    }
+                },
+            },
+        }
+    </script>
+    <style>
+        .glass-card {
+            background: rgba(47, 50, 49, 0.4);
+            backdrop-filter: blur(12px);
+            border: 1px solid rgba(255, 255, 255, 0.05);
+        }
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #17191c;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #39564f;
+            border-radius: 4px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #C9B273;
+        }
+    </style>
+<script type="importmap">
+{
+  "imports": {
+    "@google/genai": "https://esm.sh/@google/genai@^1.35.0",
+    "react/": "https://esm.sh/react@^19.2.3/",
+    "react": "https://esm.sh/react@^19.2.3",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.3/"
+  }
+}
+</script>
+</head>
+<body class="bg-background-light dark:bg-background-dark font-display text-white min-h-screen">
+    <div id="root"></div>
+</body>
+</html>
